@@ -126,14 +126,14 @@ void print_menu() // printing menus
 // this is main function
 int main(int argc, char *argv[])
 {
-    if (argc < 2) 
-    {
-        printf("You must provide the name of the file to process\n");
-        printf("Example usage: ./movies movies_sample_1.csv\n");
-        return EXIT_FAILURE;
-    }
+    // if (argc < 2) 
+    // {
+    //     printf("You must provide the name of the file to process\n");
+    //     printf("Example usage: ./movies movies_sample_1.csv\n");
+    //     return EXIT_FAILURE;
+    // }
     int input;
-    struct movie *list = processFile(argv[1]);
+    struct movie *list = processFile("movies_sample_1.csv");
 
     while(1)
     {
