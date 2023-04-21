@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "func.h"
+#include "movie.h"
 
 int movie_count = 0;
 

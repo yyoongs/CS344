@@ -3,7 +3,7 @@
 #include <string.h>
 #include "func.h"
 
-typedef enum {false,true} bool;
+//typedef enum {false,true} bool;
 // define bool to use boolean type
 
 void func1(struct movie *list) // function 1
